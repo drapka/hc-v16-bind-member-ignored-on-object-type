@@ -2,7 +2,7 @@
 #:package HotChocolate.AspNetCore@16.6.4
 #:package HotChocolate.Types.Analyzers@16.6.4
 
-// `dotnet run Hc0096Repro.cs` prints the schema. Same class, same resolver, one attribute apart:
+// `dotnet run repro.cs` prints the schema. Same class, same resolver, one attribute apart:
 //
 //   type Widget    { id: String! }               <- `size` is gone, silently
 //   type Doohickey { id: String! size: Int! }
